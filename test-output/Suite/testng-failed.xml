@@ -7,6 +7,7 @@
         <methods>
           <include name="lauchbrowser"/>
           <include name="closeoff"/>
+<<<<<<< HEAD
           <include name="login"/>
         </methods>
       </class> <!-- testCases.billing_TestCases -->
@@ -24,6 +25,13 @@
           <include name="login"/>
         </methods>
       </class> <!-- testCases.attendance_TestCases -->
+=======
+          <include name="billing"/>
+          <include name="leave"/>
+          <include name="attendance"/>
+        </methods>
+      </class> <!-- testCases.billing_TestCases -->
+>>>>>>> d5334f1a1f2845d7f4f5d0c722385b1acf8c151c
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
